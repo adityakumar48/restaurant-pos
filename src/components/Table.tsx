@@ -10,7 +10,7 @@ const Table = ({ tableNumber, status }: ItableProps) => {
     <div
       className={`${
         status === "available" ? "bg-green-900" : "bg-gray-700"
-      } p-4 text-center`}
+      } text-white rounded p-4 text-center`}
     >
       <h3 className="text-3xl">{tableNumber}</h3>
       <span>{status}</span>
